@@ -21,7 +21,10 @@ Identification of possible causal associations in diabetes related tweets.
 
 
  #### Casue and Effect span extraction from the causal tweets     
- - 
+
+- Causality-10-epochs-NER-BERT.ipynb : Notebook with output while trainign the model for 10 epochs 
+[10 epochs Trained NER span MOdel](https://www.dropbox.com/s/imqf9r1bwzy9ug6/finetuned-NER-10-epochs.zip?dl=0)
+
  
  
  
