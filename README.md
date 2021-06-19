@@ -26,9 +26,17 @@ Three different notebooks and corresponding models. [Download the model here](ht
 
 
 
- ### Casue and Effect span extraction from the causal tweets        
-  
-- 
+ ### Casue and Effect span extraction from the causal tweets: 
+ 
+ 1. Model and notebook trained only on tweets that has both cause and effect
+   - Notebook: [Causality-event-span-for-cause-and-effect.ipynb](https://github.com/WDDS/Causal-associations-diabetes-twitter/blob/main/Causality-event-span-for-cause-and-effect.ipynb)     
+   - Model: [causal span extraction model tained only on data with both cause and effect in a single tweet](https://www.dropbox.com/s/i3e4y62km7foav4/finetuned-cause-effect-span-cause-and-effect-35-epochs.pth?dl=0)  
+
+ 2. Model and notebook trained only on tweets that has either cause or effect or both cause and effect: 
+   - Notebook : [Causality-event-span-for-cause-or-effect.ipynb](https://github.com/WDDS/Causal-associations-diabetes-twitter/blob/main/Causality-event-span-for-cause-or-effect.ipynb)  
+   - Model : [causal span extraction model trained on tweets with either cause or effect or both](https://www.dropbox.com/s/qlvt1unck4vycps/finetuned-causal-span-cause-or-effect-35-epochs.pth?dl=0)  
+
+ 
  
  
  
