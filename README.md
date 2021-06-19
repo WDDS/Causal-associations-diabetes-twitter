@@ -4,7 +4,7 @@
 
 Identification of possible causal associations in diabetes related tweets.
 
-## we have two way: 
+# we have two way: 
  - a two step process and a single MTL process 
 
 ##### Common files for both the methods: 
@@ -12,7 +12,7 @@ Identification of possible causal associations in diabetes related tweets.
   - jmir.yml : conda env I used for the code 
 
 
-## Two step methods: 
+## Two step methods:   
 
 ### Causal Tweet classification 
 #### Weighted loss and accuracy measures on different learnign rate:  
@@ -46,9 +46,15 @@ Three different notebooks and corresponding models. [Download the model here](ht
  
  ## Single Step approach: Multi Task Learning with a shared encoder for both causal tweet identification and casue-effect span extraction   
  
- ### Multi task learnign with just decoder training  
+ We have two ways of doing it; either just train the decoder for both of the task on a shared BERT based encoder or train the decoder as well as finetune a few layers of encoder. 
  
- ### Multi task learnign with decoder training and encoder (a few layers) fine tunign   
+ ### Multi task learnign with just decoder training  
+  - Notebook : []multi task model tained for 35 epoochs - decoder training - no- encoder finetuning](https://github.com/WDDS/Causal-associations-diabetes-twitter/blob/main/Causality-Multitask-BERT-decoder-training.ipynb)   
+  - Model : [trained model for 35 epochs - with trained decoder- no-encoder -fine-tuning](https://www.dropbox.com/s/7ar5c6zniywpz5d/finetuned-decoder-multi-task-35-epochs.pth?dl=0)  
+ 
+ ### Multi task learnign with decoder training and encoder (a few layers) fine tuning   
+  - Notebook : TODO   
+  - Model : TODO  
   
 
 
