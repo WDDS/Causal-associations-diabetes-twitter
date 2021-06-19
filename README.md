@@ -29,12 +29,12 @@ Three different notebooks and corresponding models. [Download the model here](ht
  ### Casue and Effect span extraction from the causal tweets: 
  
  1. Model and notebook trained only on tweets that has both cause and effect
-   - Notebook: [Causality-event-span-for-cause-and-effect.ipynb](https://github.com/WDDS/Causal-associations-diabetes-twitter/blob/main/Causality-event-span-for-cause-and-effect.ipynb)     
-   - Model: [causal span extraction model tained only on data with both cause and effect in a single tweet](https://www.dropbox.com/s/i3e4y62km7foav4/finetuned-cause-effect-span-cause-and-effect-35-epochs.pth?dl=0)  
+   - Notebook: [Causality-event-span-for-35-epochs-for-cause-and-effect.ipynb](https://github.com/WDDS/Causal-associations-diabetes-twitter/blob/main/Causality-event-span-for-cause-and-effect.ipynb)     
+   - Model: [causal span extraction model tained for 35 epochs only on data with both cause and effect in a single tweet](https://www.dropbox.com/s/i3e4y62km7foav4/finetuned-cause-effect-span-cause-and-effect-35-epochs.pth?dl=0)  
 
  2. Model and notebook trained only on tweets that has either cause or effect or both cause and effect: 
-   - Notebook : [Causality-event-span-for-cause-or-effect.ipynb](https://github.com/WDDS/Causal-associations-diabetes-twitter/blob/main/Causality-event-span-for-cause-or-effect.ipynb)  
-   - Model : [causal span extraction model trained on tweets with either cause or effect or both](https://www.dropbox.com/s/qlvt1unck4vycps/finetuned-causal-span-cause-or-effect-35-epochs.pth?dl=0)  
+   - Notebook : [Causality-event-span-for-35-epochs-for-cause-or-effect.ipynb](https://github.com/WDDS/Causal-associations-diabetes-twitter/blob/main/Causality-event-span-for-cause-or-effect.ipynb)  
+   - Model : [causal span extraction model trained for 35 epochs on tweets with either cause or effect or both](https://www.dropbox.com/s/qlvt1unck4vycps/finetuned-causal-span-cause-or-effect-35-epochs.pth?dl=0)  
 
  
  
@@ -49,7 +49,7 @@ Three different notebooks and corresponding models. [Download the model here](ht
  We have two ways of doing it; either just train the decoder for both of the task on a shared BERT based encoder or train the decoder as well as finetune a few layers of encoder. 
  
  ### Multi task learnign with just decoder training  
-  - Notebook : []multi task model tained for 35 epoochs - decoder training - no- encoder finetuning](https://github.com/WDDS/Causal-associations-diabetes-twitter/blob/main/Causality-Multitask-BERT-decoder-training.ipynb)   
+  - Notebook : [multi task model tained for 35 epoochs - decoder training - no- encoder finetuning](https://github.com/WDDS/Causal-associations-diabetes-twitter/blob/main/Causality-Multitask-BERT-decoder-training.ipynb)   
   - Model : [trained model for 35 epochs - with trained decoder- no-encoder -fine-tuning](https://www.dropbox.com/s/7ar5c6zniywpz5d/finetuned-decoder-multi-task-35-epochs.pth?dl=0)  
  
  ### Multi task learnign with decoder training and encoder (a few layers) fine tuning   
