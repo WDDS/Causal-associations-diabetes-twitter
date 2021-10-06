@@ -1,0 +1,14 @@
+{
+  "name": "@adahne/cause-and-effect-associations-in-diabetes-related-tweets",
+  "main": "ac0d495e8d8db4c5@1102.js",
+  "version": "1102.0.0",
+  "homepage": "https://observablehq.com/@adahne/cause-and-effect-associations-in-diabetes-related-tweets",
+  "author": {
+    "name": "adahne",
+    "url": "https://observablehq.com/@adahne"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
